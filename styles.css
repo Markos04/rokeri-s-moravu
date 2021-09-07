@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
-@font-face {
-    font-family: "Booter - Zero Zero.woff";
-    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
-         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
 * {
     box-sizing: border-box;
     font-family: Raleway;
     color: #777;
 }
-
 html, body {
     margin: 0;
     padding: 0;
 }
 
+.content-section {
+    margin: 10px;
+}
 .nav ul {
     margin: 0;
 }
@@ -33,6 +28,15 @@ html, body {
     background-color: rgba(255, 255, 255, .3);
 }
 
+.main-header {
+    background-color: rgba(255, 255, 255, 0.6);
+    background-image: url("images/cetvorica.jpg");
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: repeat;
+    padding-bottom: 30px;
+}
 .main-nav {
     text-align: center;
     font-size: 1.3em;
@@ -47,18 +51,14 @@ html, body {
     text-align: center;
     margin: 0;
     font-size: 4em;
-    font-family: "Booter - Zero Zero";
+    font-family: Railway;
     font-weight: normal;
     color: white;
-    
+}
+.band-name-large {
+    font-size: 6em;
 }
 
-.main-header{
-    background-color: rgba(255, 255, 255, 0.6);
-    background-image: url("images/am.jpg");
-    background-position: center;
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-repeat: repeat;
-    padding-bottom: 30px;
+.container {
+    max-width: 900px;
 }
