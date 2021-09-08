@@ -9,9 +9,7 @@ html, body {
     padding: 0;
 }
 
-.content-section {
-    margin: 10px;
-}
+
 .nav ul {
     margin: 0;
 }
@@ -59,6 +57,43 @@ html, body {
     font-size: 6em;
 }
 
+.content-section {
+    margin: 1em;
+}
 .container {
     max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-band-image {
+    float: left;
+    height: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.footer-nav img {
+    width: 50px;
+
+}
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container {
+    flex-grow: 1;
+    text-align: end;
+}
+.section-paragraph{
+    margin-bottom: auto;
 }
