@@ -5,125 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description", content="Basic description">
     <title>Arctic Monkeys | Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="main-nav nav">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="store.html">STORE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
             </ul>
-            <hr>
-            <h1>Arctic Monkeys</h1>
         </nav>
+        <h1 class="band-name band-name-large">Arctic Monkeys</h1>
     </header>
-    <section>
-        <h2>MUSIC</h2>
-        <div>
-            <div>
-                <strong>Album 1</strong>
+
+    <section class="container content-section">
+        <h2 class="section-header">MUSIC</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Favourite Worst Nightmare</span>
+                <img class="shop-item-img" src="images/favwn.jpg" alt="">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
             </div>
-            <img src="images/favwn.jpg" alt="" width="200">
-            <div>
-                <span>$5.99</span>
-                <button role="button">ADD TO CART</button>
+            <div class="shop-item">
+                <span class="shop-item-title">Am</span>
+                <img class="shop-item-img"src="images/ama.jpg" alt="">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <div>
-                <strong>Album 2</strong>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 1</span>
+                <img class="shop-item-img"src="images/whatps.jpg" alt="">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
             </div>
-            <img src="images/ama.jpg" alt="" width="200">
-            <div>
-                <span>$5.99</span>
-                <button role="button">ADD TO CART</button>
+            <div class="shop-item">
+                <span class="shop-item-title">Humbug</span>
+                <img class="shop-item-img"src="images/humbug.jpg" alt="">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <div>
-                <strong>Album 3</strong>
-            </div>
-            <img src="images/whatps.jpg" alt="" width="200">
-            <div>
-                <span>$5.99</span>
-                <button role="button">ADD TO CART</button>
-            </div>
-        </div>
-        <div>
-            <div>
-                <strong>Album 4</strong>
-            </div>
-            <img src="images/humbug.jpg" alt="" width="200">
-            <div>
-                <span>$5.99</span>
-                <button role="button">ADD TO CART</button>
             </div>
         </div>
+        </section>
+
+
+
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div>
+                    <span class="shop-item-title">T-Shirt</span>
+                    <img class="shop-item-img"src="images/t-shirt.jpg" alt="">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div>
+                    <span class="shop-item-title">Sweatshirt</span>
+                    <img class="shop-item-img"src="images/sshirt.jpg" alt="">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-img" src="images/t-shirt.jpg" alt="">
+                    <span class="cart-item-title">T-Shirt</span>
+                </div>
+                <span class="cart-price cart-column">$19.99</span>
+                <input class="cart-quantity cart-column" type="number" value="1">
+                <button class="btn btn-danger cart-quantity-button" role="button">REMOVE</button>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-img" src="images/sshirt.jpg" alt="">
+                    <span>Sweatshirt</span>
+                </div>
+                <span class="cart-price cart-column">$19.99</span>
+                <input type="number", value="1">
+                <button role="button">REMOVE</button>
+            </div>
+            <hr>
+            <div>
+                <strong>Total</strong>
+                <span>$39.98</span>
+            </div>
+            <div>
+                <button role="button">PURCHASE</button>
+            </div>
     </section>
 
 
-
-    <section>
-        <h2>MERCH</h2>
-        <div>
-            <div>
-                <strong>T-Shirt</strong>
-            </div>
-            <img src="images/t-shirt.jpg" alt="" width="200">
-            <div>
-                <span>$5.99</span>
-                <button role="button">ADD TO CART</button>
-            </div>
-        </div>
-        <div>
-            <div>
-                <strong>Sweatshirt</strong>
-            </div>
-            <img src="images/sshirt.jpg" alt="" width="200">
-            <div>
-                <span>$5.99</span>
-                <button role="button">ADD TO CART</button>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <section>
-        <h2>CART</h2>
-        <div>
-            <strong>ITEM</strong>
-            &lt;&gt;
-            <strong>PRICE</strong>
-            &lt;&gt;
-            <strong>QUANTITY</strong>
-            &lt;&gt;
-        </div>
-        <div>
-            <img src="images/t-shirt.jpg" alt="", width="100">
-            <span>T-Shirt</span>
-            <span>$19.99</span>
-            <input type="number", value="1">
-            <button role="button">REMOVE</button>
-        </div>
-        <div>
-            <img src="images/sshirt.jpg" alt="", width="100">
-            <span>Sweatshirt</span>
-            <span>$19.99</span>
-            <input type="number", value="1">
-            <button role="button">REMOVE</button>
-        </div>
-        <hr>
-        <div>
-            <strong>Total</strong>
-            <span>$39.98</span>
-        </div>
-        <div>
-            <button role="button">PURCHASE</button>
-        </div> 
-    </section>
 
 
     <footer>
